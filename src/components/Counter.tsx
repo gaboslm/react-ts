@@ -15,16 +15,18 @@ export const Counter = () => {
 			<div className="d-flex gap-2">
 				<button 
 					className="btn bg-black text-white" 
-					onClick={increment}
-				>
-					Increment
-				</button>
-				<button 
-					className="btn bg-black text-white" 
 					onClick={decrement}
 				>
-					Decrement
+					Decrement - 1
 				</button>
+
+				<button 
+					className="btn bg-black text-white" 
+					onClick={increment}
+				>
+					Increment + 1
+				</button>
+
 				<button 
 					className="btn bg-danger text-white" 
 					onClick={reset}
