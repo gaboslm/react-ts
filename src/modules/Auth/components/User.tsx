@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { IUser } from '../../types'
+import { IUser } from '../types'
 
 export const User = ({ user, children:_ }: { user: IUser, children?: ReactNode }) => {
 	return (

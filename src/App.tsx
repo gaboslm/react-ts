@@ -1,8 +1,8 @@
-import { Counter } from './components/Counter';
-import { Auth } from './components/Auth';
-import { Timer } from './components/Timer';
-import { Reducer } from './components/Reducer';
-import { Form } from './components/Form';
+import { Counter } from './modules/Counter/components/Counter';
+import { Auth } from './modules/Auth/components/Auth';
+import { Timer } from './modules/Timer/components/Timer';
+import { Reducer } from './modules/Counter/components/Reducer';
+import { Form } from './modules/Form/components/Form';
 
 function App() {
   return (

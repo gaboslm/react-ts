@@ -1,5 +1,5 @@
 import { useReducer } from "react"
-import { useCounterState, useCounterReducer } from "../../state"
+import { useCounterState, useCounterReducer } from "../state"
 
 export const Reducer = () => {
 	const [state, dispatch] = useReducer(useCounterReducer, useCounterState)

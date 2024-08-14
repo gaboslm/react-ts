@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useForm } from "../hooks"
-import Spinner from "./Spinner"
+import Spinner from "../../../components/Spinner"
 
 type FormData = { 
 	name: string, 

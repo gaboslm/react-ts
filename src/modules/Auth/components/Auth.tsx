@@ -1,8 +1,8 @@
 import { useState } from "react"
-import { IUser } from "../../types";
+import { IUser } from "../types";
 import { User } from "./User";
 import { v4 as uuidv4 } from 'uuid';
-import Spinner from "../Spinner";
+import Spinner from "../../../components/Spinner";
 
 export const Auth = () => {
 
