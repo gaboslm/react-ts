@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { IUser } from "../../types/User";
+import { IUser } from "../../types";
 import { User } from "./User";
 import { v4 as uuidv4 } from 'uuid';
 import Spinner from "../Spinner";
