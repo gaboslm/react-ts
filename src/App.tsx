@@ -1,5 +1,6 @@
 import { Counter } from './components/Counter';
 import { Auth } from './components/Auth';
+import { Timer } from './components/Timer';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
     </nav>
 
     <Counter />
+    <hr />
+    <Timer />
+    <hr />
     </>
   );
 }
