@@ -4,7 +4,7 @@ export const useCounterState = {
 
 type useCounterStateType = typeof useCounterState
 
-export type userCounterActions = {
+export type useCounterActions = {
 	type: 'increment' 
 } | {
 	type: 'decrement'
@@ -13,7 +13,7 @@ export type userCounterActions = {
 	incrementBy: number
 }
 
-export const useCounterReducer = ( state: useCounterStateType, action: userCounterActions ): useCounterStateType => {
+export const useCounterReducer = ( state: useCounterStateType, action: useCounterActions ): useCounterStateType => {
 	switch (action.type){
 		case 'increment': {
 			return {
