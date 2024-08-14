@@ -32,7 +32,7 @@ export const Auth = () => {
 			<div className="d-flex align-items-center gap-3">
 				<span>You are not log in yet</span>
 				<button 
-					className="btn btn-outline-light btn-sm"
+					className="btn btn-outline-light btn-sm text-uppercase px-3"
 					onClick={login}
 				>
 					Log in { loading && <Spinner /> }
