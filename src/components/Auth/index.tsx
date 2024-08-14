@@ -10,6 +10,8 @@ export const Auth = () => {
 	const [loading, setLoading] = useState(false);
 
 	const login = async () => {
+		if(loading) return 
+		
 		setLoading(true)
 		return new Promise((res) => {
 			setTimeout(()=> {
