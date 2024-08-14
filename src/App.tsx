@@ -1,6 +1,7 @@
 import { Counter } from './components/Counter';
 import { Auth } from './components/Auth';
 import { Timer } from './components/Timer';
+import { Reducer } from './components/Reducer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <hr />
     <Timer />
     <hr />
+    <Reducer />
     </>
   );
 }
