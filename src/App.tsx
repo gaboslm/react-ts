@@ -3,6 +3,7 @@ import { Auth } from './modules/Auth/components/Auth';
 import { Timer } from './modules/Timer/components/Timer';
 import { Reducer } from './modules/Counter/components/Reducer';
 import { Form } from './modules/Form/components/Form';
+import { Todo } from './modules/Todos/components/Todos';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
     <Reducer />
     <hr />
     <Form />
+    <hr />
+    <Todo />
     </>
   );
 }
